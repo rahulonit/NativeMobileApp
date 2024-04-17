@@ -5,6 +5,13 @@ import Firstscr from "./screens/Firstscreen";
 import Loginscr from "./screens/Loginscreen";
 import Signupscr from "./screens/Signupscreen";
 
+//Auth Imports
+import { AppRegistry } from 'react-native';
+import Appauth from './App';
+import { name as appName } from './app.json';
+AppRegistry.registerComponent(appName, () => Appauth);
+
+
 const Stack = createNativeStackNavigator();
 
 function App() {

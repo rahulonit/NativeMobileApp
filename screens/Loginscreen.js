@@ -10,7 +10,8 @@ import {
   Alert
 } from "react-native";
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
-import { faFacebookF, faGoogle, faLock, faUserAlt } from "@fortawesome/free-solid-svg-icons";
+import { faLock, faUserAlt } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from "../firebaseConfig";
 
